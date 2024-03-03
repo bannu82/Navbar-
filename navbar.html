@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="navbar.css"> -->
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            user-select: none;
+        }
+        
+        .nav-bar {
+            height: 70px;
+            background: linear-gradient(#5da3ff, #4965cbfa);
+            /* background: radial-gradient(#5da3ff, #7891ecfa, #4059d5fc, #3167f3); */
+            display: flex;
+            align-items: center;
+            padding-left: 30px;
+            padding-right: 30px;
+            justify-content: space-between;
+        }
+        
+        .container-1 li,
+        .container-3 li {
+            list-style-type: none;
+            padding: 5px;
+            margin: 5px;
+        }
+        
+        .container-1 {
+            /* background-color: rgb(40, 105, 162); */
+            background: transparent;
+            display: flex;
+            padding: 5px;
+            margin: 5px;
+            align-items: center;
+        }
+        
+        .container-1 .home {
+            color: white;
+            margin-right: 40px;
+        }
+        
+        .container-1 .home i {
+            background-color: transparent;
+            margin-right: 15px;
+            font-size: 25px;
+            color: white;
+        }
+        
+        .container-1 a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .container-1 li i {
+            color: white;
+            font-size: 14px;
+            padding: 4px;
+        }
+        
+        .container-2 {
+            /* background-color: aliceblue; */
+            background: transparent;
+            display: flex;
+            padding: 5px;
+            margin: 10px;
+        }
+        
+        .search-bar {
+            display: flex;
+            align-items: center;
+            width: 400px;
+            height: 50px;
+        }
+        
+        .search-bar .search-dat {
+            width: 300px;
+            height: 40px;
+            max-width: 350px;
+            box-shadow: 1px 4px 4px rgba(92, 88, 88, 0.1);
+            /* Add box shadow */
+            border: 1px solid rgb(105, 105, 114);
+            border-radius: 10px;
+            padding: 10px;
+            margin: 10px;
+            max-width: 400px;
+        }
+        
+        .search-bar button {
+            background: transparent;
+            height: 40px;
+            width: 80px;
+            font-size: 14px;
+            font-weight: 600;
+            color: white;
+            border: 1px solid rgb(255, 255, 255);
+            border-radius: 10px;
+        }
+        
+        .container-3 {
+            /* background-color: aliceblue; */
+            background: transparent;
+            display: flex;
+            padding: 5px;
+            margin: 0px;
+        }
+        
+        .container-3 i {
+            color: white;
+            font-size: 20px;
+            margin: 3px;
+        }
+        
+        .container-3 a {
+            font-size: 15px;
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="container-1">
+
+            <div class="home"><i class="fa fa-home"></i> TECHNOgives</div>
+            <li><a href="#">Products</a></li>
+            <li><a href="#"> Catagory</a><i class="fa fa-caret-down"></i></li>
+
+        </div>
+
+        <div class="container-2">
+            <form action="#" class="search-bar">
+                <input type="search" class="search-dat" placeholder="search for products" required>
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+        <div class="container-3">
+            <li><i class="fa fa-user-plus"></i> <a href="#">Register</a></li>
+            <li><i class="fa fa-unlock"></i> <a href="#">Login</a></li>
+            <li><i class="fa fa-user"></i> <a href="#">Admin</a></li>
+        </div>
+    </nav>
+
+
+
+
+</body>
+
+</html>
