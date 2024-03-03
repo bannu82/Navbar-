@@ -8,6 +8,6 @@ To use this navigation bar in your project, simply copy the HTML and CSS code an
 
 ```html
 
-![Navigation Bar Screenshot](https://raw.githubusercontent.com/bannu82/Navbar-/main/screenshot.png)
+<img src="https://raw.githubusercontent.com/bannu82/Navbar-/main/screenshot.png" alt="Navigation Bar Screenshot">
 
 
